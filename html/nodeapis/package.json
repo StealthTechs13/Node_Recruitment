@@ -1,0 +1,39 @@
+{
+  "name": "swipeup",
+  "version": "1.0.0",
+  "description": "swipe up api's",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Stealth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expree": "0.0.7",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "forever": "^3.0.4",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.18",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "path": "^0.12.7",
+    "pug": "^3.0.0",
+    "save": "^2.4.0",
+    "twilio": "^3.54.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
